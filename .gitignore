@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IDE folders
+.idea/
+.vscode/
+
+# Experiment outputs
+runs/
+representation_cache/
+figures/
+figures_*/
+*_runs/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Dataset / cache files
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+
+# Keep empty dataset folders, but ignore their contents
+dsec_seg/*
+!dsec_seg/.gitkeep
+
+pedro/*
+!pedro/.gitkeep
