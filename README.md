@@ -1,5 +1,6 @@
 # Event Camera Segmentation Experiments
 
+* `This project is part of the Research Project 2026 of TU Delft.`
 This repository contains the code I used for my event-camera segmentation experiments. The goal is to test how much scene information can still be learned from event-camera data using different event representations.
 
 The project has two main experiments:
